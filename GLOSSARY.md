@@ -32,9 +32,9 @@ _Avoid_: upstream, source, dependency
 The owner's earlier skills repo (ivanhxlabs/skills), studied for lessons on what made it messy rather than for ideas to borrow.
 _Avoid_: old version, v1, legacy
 
-**Token-saving tool**:
-A third-party tool that cuts the tokens a session spends, adopted into the Plugin or Repo setup after evaluation.
-_Avoid_: optimizer, compressor
+**Token-saving lever**:
+A setting, model choice or habit that cuts the tokens a session spends, built into Claude Code or applied by the Repo setup.
+_Avoid_: token-saving tool, optimizer, compressor
 
 **Verdict**:
 The outcome Verify posts on a pull request, PASS, PASS+NOTES or FAIL, from an agent that did not write the change, backed by evidence from running it on the real surface.
