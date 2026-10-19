@@ -39,3 +39,15 @@ _Avoid_: token-saving tool, optimizer, compressor
 **Verdict**:
 The outcome Verify posts on a pull request, PASS, PASS+NOTES or FAIL, from an agent that did not write the change, backed by evidence from running it on the real surface.
 _Avoid_: review, approval, green CI
+
+**Eval case**:
+One prompt plus its graders, the unit the eval harness runs against the Plugin to check that a skill fires and behaves.
+_Avoid_: test, spec, scenario
+
+**Trigger pair**:
+The two Eval cases every model-invoked skill carries: one prompt that should fire it, and one near-miss that should fire a sibling skill instead.
+_Avoid_: routing test, positive/negative
+
+**Hillclimb**:
+A bounded tuning run of a skill against the Eval cases, one change per round, kept only when the held-out score improves.
+_Avoid_: optimisation, prompt tuning, iteration
