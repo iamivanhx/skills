@@ -44,6 +44,18 @@ _Avoid_: token-saving tool, optimizer, compressor
 The outcome Verify posts on a pull request, PASS, PASS+NOTES or FAIL, from an agent that did not write the change, backed by evidence from running it on the real surface.
 _Avoid_: review, approval, green CI
 
+**Call**:
+The founder's decision on an idea at a Discover gate, one of a fixed set of words (drop, park or pursue at triage; go, test first, pivot or stop on the market-fit), made by the founder alone and recorded on the idea's issue.
+_Avoid_: verdict, decision, outcome
+
+**Ideas repo**:
+The founder's private GitHub repo where every idea lives as an issue and Discover's documents (research notes, market-fit, features) are committed; the Plugin learns it once and no skill hardcodes it.
+_Avoid_: backlog, notes repo, vault
+
+**One-pager**:
+The body of an idea's issue: the case for the idea in nine fixed lines, from the problem to what it is not doing, written at triage and read by every later Discover step.
+_Avoid_: brief, pitch, idea file
+
 **Eval case**:
 One prompt plus its graders, the unit the eval harness runs against the Plugin to check that a skill fires and behaves.
 _Avoid_: test, spec, scenario
