@@ -83,3 +83,7 @@ _Avoid_: deploy, publish, bump, update
 **Handoff**:
 The file that carries one session's conversation context (what was learned, tried and left half-done) to the next, pointing at the ticket for everything the tracker already holds.
 _Avoid_: context dump, memory, summary
+
+**Origin note**:
+The file in a product repo that links it back to the idea it grew from: the idea's issue, market-fit and features in the Ideas repo, written once at Setup and never copied from.
+_Avoid_: provenance, backlink, idea link
