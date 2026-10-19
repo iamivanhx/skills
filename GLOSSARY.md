@@ -51,3 +51,15 @@ _Avoid_: routing test, positive/negative
 **Hillclimb**:
 A bounded tuning run of a skill against the Eval cases, one change per round, kept only when the held-out score improves.
 _Avoid_: optimisation, prompt tuning, iteration
+
+**Stage skill**:
+A skill the human runs to enter a Stage, named by that Stage, that ends by naming the artifact it produced and the next skill to run.
+_Avoid_: command, orchestrator, entry point
+
+**Discipline**:
+A skill that does one practice well (questioning, research, test-first building, review) and is reached by Stage skills or fired by the agent on its own, never run as a Stage.
+_Avoid_: leaf, helper, sub-skill
+
+**Handoff**:
+The file that carries one session's conversation context (what was learned, tried and left half-done) to the next, pointing at the ticket for everything the tracker already holds.
+_Avoid_: context dump, memory, summary
