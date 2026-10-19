@@ -1,6 +1,6 @@
 # Skills
 
-A personal software-development workflow for Claude Code: a set of skills packaged as a plugin, plus the wider Claude Code customisation that a plugin can't carry.
+A personal founder's workflow for Claude Code: a set of skills packaged as a plugin, plus the wider Claude Code customisation that a plugin can't carry.
 
 ## Language
 
@@ -13,8 +13,16 @@ The part of the customisation a plugin can't carry (user-level settings, externa
 _Avoid_: dotfiles, config, install
 
 **Workflow**:
-The end-to-end development loop the skills chain together, from a loose idea to shipped code.
-_Avoid_: process, pipeline, flow
+The founder's loop the skills chain together, from a raw idea through validation, build and launch, to a product in use.
+_Avoid_: process, pipeline, flow, dev loop
+
+**Track**:
+One of the four segments of the Workflow: Discover, Build, Launch, Operate. Every skill names the Track and stage it serves.
+_Avoid_: phase, module, area
+
+**Stage**:
+A step inside a Track with one trigger, one artifact handed on, and a known place for the human.
+_Avoid_: step, phase
 
 **Inspiration**:
 An external skill collection this effort borrows ideas from, credited but not depended on.
@@ -27,3 +35,7 @@ _Avoid_: old version, v1, legacy
 **Token-saving tool**:
 A third-party tool that cuts the tokens a session spends, adopted into the Plugin or Repo setup after evaluation.
 _Avoid_: optimizer, compressor
+
+**Verdict**:
+The outcome Verify posts on a pull request, PASS, PASS+NOTES or FAIL, from an agent that did not write the change, backed by evidence from running it on the real surface.
+_Avoid_: review, approval, green CI
