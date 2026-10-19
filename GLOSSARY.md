@@ -32,6 +32,10 @@ _Avoid_: upstream, source, dependency
 The owner's earlier skills repo (ivanhxlabs/skills), studied for lessons on what made it messy rather than for ideas to borrow.
 _Avoid_: old version, v1, legacy
 
+**Work fork**:
+The owner's unlicensed fork of mattpocock/skills kept at work (skills-1.9.0), the pre-sprawl snapshot of the Predecessor's lineage; a source of shapes and ideas, never of text until its licence is settled.
+_Avoid_: SAP fork, internal fork, 1.9.0
+
 **Token-saving lever**:
 A setting, model choice or habit that cuts the tokens a session spends, built into Claude Code or applied by the Repo setup.
 _Avoid_: token-saving tool, optimizer, compressor
