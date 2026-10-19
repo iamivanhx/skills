@@ -87,3 +87,11 @@ _Avoid_: context dump, memory, summary
 **Origin note**:
 The file in a product repo that links it back to the idea it grew from: the idea's issue, market-fit and features in the Ideas repo, written once at Setup and never copied from.
 _Avoid_: provenance, backlink, idea link
+
+**Harness**:
+The project-local skill that launches, checks, drives and cleans up a product's real app so an agent can prove a change on the surface a user touches; Verify refuses to run without one.
+_Avoid_: verification skill, control CLI, test harness, run skill
+
+**Feature Map**:
+The Harness's index of a product's user-facing features, one entry each, saying how a user reaches the feature, how to drive it and what end state proves it works; the memory a cold agent verifies from.
+_Avoid_: feature list, test plan, journeys
